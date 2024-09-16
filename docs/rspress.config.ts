@@ -1,4 +1,4 @@
-import * as path from 'path';
+import * as path from 'node:path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
@@ -11,8 +11,6 @@ export default defineConfig({
     dark: '/rspress-dark-logo.png',
   },
   themeConfig: {
-    socialLinks: [
-      { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
-    ],
+    socialLinks: [{ icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' }],
   },
 });

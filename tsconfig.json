@@ -16,9 +16,10 @@
     "paths": {
       "@core": ["packages/ai-genius-core/src/*"],
       "@ui/*": ["packages/ai-genius-ui/src/*"],
-      "@app": ["apps/ai-genius-app/src/*"]
+      "@app": ["apps/ai-genius-app/src/*"],
+      "@docs": ["docs/*"]
     }
   },
-  "include": ["apps/**/*", "packages/**/*"],
+  "include": ["apps/**/*", "packages/**/*", "docs/*"],
   "exclude": ["node_modules"]
 }
