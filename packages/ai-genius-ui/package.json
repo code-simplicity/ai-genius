@@ -1,0 +1,13 @@
+{
+  "name": "@ai-genius/ai-genius-ui",
+  "version": "1.0.0",
+  "description": "统一的UI集合，比如统一的登陆，也就是公共组件吧",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
