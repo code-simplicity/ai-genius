@@ -7,7 +7,9 @@
     "check": "biome check --write",
     "dev": "rsbuild dev --open",
     "format": "biome format --write",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
+    "dev:rsdoctor": "cross-env RSDOCTOR=true rsbuild dev",
+    "build:rsdoctor": "cross-env RSDOCTOR=true rsbuild build"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
@@ -26,6 +28,7 @@
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@unocss/postcss": "^0.62.3",
+    "cross-env": "^7.0.3",
     "typescript": "^5.5.2",
     "unocss": "^0.62.3"
   },

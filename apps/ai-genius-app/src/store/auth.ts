@@ -5,6 +5,9 @@ interface userType {
   email: string;
 }
 
+/**
+ * 创建路由状态管理器
+ */
 export const useAuthStore = create((set) => {
   return {
     isAuthenticated: false,
