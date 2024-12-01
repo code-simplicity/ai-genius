@@ -1,4 +1,5 @@
 import '@styles/main.css';
+import Analytics from '@components/Analytics';
 import { routers } from '@routes';
 import { ConfigProvider } from 'antd';
 import React from 'react';
@@ -14,6 +15,7 @@ const App = () => {
       }}
     >
       <RouterProvider router={routers} />
+      <Analytics />
     </ConfigProvider>
   );
 };
