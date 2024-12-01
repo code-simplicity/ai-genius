@@ -1,5 +1,6 @@
 import { autoRoute } from '@routes/auth';
-import App from '@views/App.tsx';
+import { WelcomeRoute } from '@routes/welcome';
+import WelcomePage from '@views/welcomePage';
 import { createBrowserRouter } from 'react-router-dom';
 
 /**
@@ -8,7 +9,8 @@ import { createBrowserRouter } from 'react-router-dom';
 export const routers = createBrowserRouter([
   {
     path: '/',
-    Component: App,
+    Component: WelcomePage,
   },
+  ...WelcomeRoute,
   ...autoRoute,
 ]);
