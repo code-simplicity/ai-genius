@@ -9,4 +9,10 @@ export default defineConfig({
       plugins: [TanStackRouterRspack({ target: 'react', autoCodeSplitting: true })],
     },
   },
+  performance: {
+    // 代码拆分
+    chunkSplit: {
+      strategy: 'split-by-experience',
+    },
+  },
 });
