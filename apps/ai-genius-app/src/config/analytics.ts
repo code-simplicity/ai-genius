@@ -21,7 +21,7 @@ export const createAnalyticsEnv = () => {
       // 启用分析
       ENABLED_ANALYTICS: !!process.env.ENABLED_ANALYTICS,
       // 启用 Vercel 分析
-      ENABLED_VERCEL_ANALYTICS: process.env.ENABLED_Vercel_ANALYTICS === '1',
+      ENABLED_VERCEL_ANALYTICS: process.env.ENABLED_VERCEL_ANALYTICS === '1',
       // 启用 Google 分析
       ENABLED_GOOGLE_ANALYTICS: process.env.ENABLED_GOOGLE_ANALYTICS === '1',
       // Google 分析 ID

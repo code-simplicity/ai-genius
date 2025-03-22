@@ -12,11 +12,12 @@
     "moduleResolution": "bundler",
     "useDefineForClassFields": true,
     "allowImportingTsExtensions": true,
+    "noExplicitAny": false,
     "baseUrl": ".",
     "paths": {
       "@*": ["src/*"]
     }
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
